@@ -1,6 +1,10 @@
 require 'rails_helper'
 
 RSpec.describe Note, type: :model do
+  # 検索結果を検証するスペック
+
+  # 検索結果が１件も見つからなければカラのコレクションを返すこと
+
   # 検索文字列に一致するメモを返すこと
   it "returns notes that match the search term" do
     user = User.create(

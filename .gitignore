@@ -11,6 +11,9 @@
 /.env*
 !/.env*.erb
 
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
