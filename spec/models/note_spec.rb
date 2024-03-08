@@ -4,6 +4,8 @@ RSpec.describe Note, type: :model do
   # 検索結果を検証するスペック
 
   # 検索結果が１件も見つからなければカラのコレクションを返すこと
+  it "returns an empty collection when no results are found" do
+  end
 
   # 検索文字列に一致するメモを返すこと
   it "returns notes that match the search term" do
