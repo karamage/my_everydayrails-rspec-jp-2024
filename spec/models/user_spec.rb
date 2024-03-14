@@ -52,11 +52,7 @@ RSpec.describe User, type: :model do
   end
 
   it "returns a user's full name as a string" do
-    user = User.new(
-      first_name: "John",
-      last_name:  "Doe",
-      email:      "johndoe@example.com",
-      )
+    user = FactoryBot.build(:user, first_name: "John", last_name: "Doe")
     expect(user.name).to eq "John Doe"
   end
 end
