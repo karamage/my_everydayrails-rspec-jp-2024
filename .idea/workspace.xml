@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="17a3d7db-395e-46a1-879c-f6bd3df30621" name="Changes" comment="add user factory bot with sequence email.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/factories/projects.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/factories/projects.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/models/project_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/project_spec.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +168,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709172286308</updated>
       <workItem from="1709172290376" duration="2553000" />
-      <workItem from="1709184252571" duration="28833000" />
+      <workItem from="1709184252571" duration="30172000" />
     </task>
     <task id="LOCAL-00001" summary="setup rspec">
       <created>1709183269415</created>
@@ -310,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710484621889</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="add user factory bot with sequence email.">
+      <created>1710490622473</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1710490622473</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
