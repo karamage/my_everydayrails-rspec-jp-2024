@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17a3d7db-395e-46a1-879c-f6bd3df30621" name="Changes" comment="add home controller spec.">
+    <list default="true" id="17a3d7db-395e-46a1-879c-f6bd3df30621" name="Changes" comment="add project controller spec.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/controllers/home_controller_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/controllers/home_controller_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/rails_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/rails_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/controllers/projects_controller_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/controllers/projects_controller_spec.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +168,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709172286308</updated>
       <workItem from="1709172290376" duration="2553000" />
-      <workItem from="1709184252571" duration="37883000" />
+      <workItem from="1709184252571" duration="39832000" />
     </task>
     <task id="LOCAL-00001" summary="setup rspec">
       <created>1709183269415</created>
@@ -353,7 +352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711088921998</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="add project controller spec.">
+      <created>1711092730218</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1711092730218</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,6 +379,7 @@
     <MESSAGE value="add project trait factory bot." />
     <MESSAGE value="add project trait callback factory bot." />
     <MESSAGE value="add home controller spec." />
-    <option name="LAST_COMMIT_MESSAGE" value="add home controller spec." />
+    <MESSAGE value="add project controller spec." />
+    <option name="LAST_COMMIT_MESSAGE" value="add project controller spec." />
   </component>
 </project>
