@@ -168,7 +168,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709172286308</updated>
       <workItem from="1709172290376" duration="2553000" />
-      <workItem from="1709184252571" duration="39832000" />
+      <workItem from="1709184252571" duration="40726000" />
     </task>
     <task id="LOCAL-00001" summary="setup rspec">
       <created>1709183269415</created>
@@ -359,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711092730218</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="add project controller spec.">
+      <created>1711614659761</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1711614659761</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
