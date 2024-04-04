@@ -106,4 +106,22 @@ RSpec.describe ProjectsController, type: :controller do
       end
     end
   end
+
+  describe "#update" do
+    # 認可されたユーザーとして
+    context "as an authorized user" do
+      before do
+        @user = FactoryBot.create(:user)
+        @project = FactoryBot.create(:project, owner: @user)
+      end
+
+      # プロジェクトを更新できること
+      it "updates a project" do
+        project_params = FactoryBot.attributes_for(:project, name: "New Project Name")
+        sign_in @user
+        patch :update, params: { id: @project.id, project: project_params }
+        expect(@project.reload.name).to eq "New Project Name"
+      end
+    end
+  end
 end
